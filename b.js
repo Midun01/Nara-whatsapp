@@ -1,4 +1,4 @@
-<script>
+
 function kirimPesan() {
 const hari = document.getElementById('hari').value;
 const tgl = document.getElementById('tgl').value;
@@ -24,4 +24,3 @@ const pesan = `
     const whatsappUrl = `https://wa.me/6285711374861?text=${encodeURIComponent(pesan)}`;
     window.open(whatsappUrl, '_blank');
 }
-</script>
